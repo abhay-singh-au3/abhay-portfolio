@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import validator from 'validator'
 
 export function Form() {
-    const [state, handleSubmit] = useForm('myyozglw')
+    const [state, handleSubmit] = useForm('xayvopyw')
 
     const [validEmail, setValidEmail] = useState(false)
     const [isHuman, setIsHuman] = useState(false)
@@ -77,7 +77,7 @@ export function Form() {
                     errors={state.errors}
                 />
                 <ReCAPTCHA
-                    sitekey="6Ld8gYseAAAAALkyGWZ4meirUP6Tedbi9Ik0wmMj"
+                    sitekey="6Lf8hYseAAAAALERMvY_aVPTSKKfxLm5i8DKM824"
                     onChange={(e) => {
                         setIsHuman(true)
                     }}
