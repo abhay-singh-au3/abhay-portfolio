@@ -4,7 +4,7 @@ import reactIcon from '../../assets/react-icon.svg'
 import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import instagramIcon from '../../assets/instagram.png'
-import discordIcon from '../../assets/discord.png'
+// import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
     return (
@@ -22,7 +22,7 @@ export function Footer() {
 
             <div className="social-media">
                 <a
-                    href="#l"
+                    href="https://www.linkedin.com/in/abhay94/"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -30,7 +30,7 @@ export function Footer() {
                 </a>
 
                 <a
-                    href="#l"
+                    href="https://github.com/abhay-singh-au3"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -38,20 +38,20 @@ export function Footer() {
                 </a>
 
                 <a
-                    href="#l"
+                    href="https://www.instagram.com/abh4y_singh_/"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <img src={instagramIcon} alt="Instagram" />
                 </a>
 
-                <a
+                {/* <a
                     href="#l"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <img src={discordIcon} alt="Discord" />
-                </a>
+                </a> */}
             </div>
         </Container>
     )
