@@ -14,7 +14,7 @@ export function About() {
         <Container id="about">
             <div className="about-text">
                 <ScrollAnimation animateIn="fadeInLeft">
-                    <h2>About me</h2>
+                    <h2>About me - Abhay</h2>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius dolor iure tempora placeat ab in ut, pariatur magni, repellat debitis voluptatibus iusto. Nihil, excepturi. Vitae blanditiis natus aliquid adipisci.</p>
